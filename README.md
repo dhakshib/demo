@@ -1,0 +1,1 @@
+The purpose of this lab is to get familiar with Git.
