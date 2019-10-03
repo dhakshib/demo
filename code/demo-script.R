@@ -1,6 +1,14 @@
-# Title: Short title (one sentence)
-# Description: what the script is about (one paragraph or two)
-# Input(s): what are the main inputs (list of inputs)
-# Output(s): what are the main outputs (list of outputs)
-# Author(s): First Last
-# Date: mm-dd-yyyy
+# ===================================================================
+# Title: Descriptive Analysis
+# Description:
+#   This script computes descriptive statistics, as well as 
+#   various exploratory data visualizations.
+# Input(s): data file 'nba2018-players.csv'
+# Output(s): summary data files, and plots
+# Author: Dhakshi Balakumar
+# Date: 10-3-2019
+# ===================================================================
+
+# packages
+library(dplyr)    # data wrangling
+library(ggplot2)  # graphics
