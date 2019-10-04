@@ -1,0 +1,32 @@
+             player         team     position     height          weight     
+ A.J. Hammons   :  1   BRK    : 19   C : 97   Min.   :69.00   Min.   :150.0  
+ Aaron Brooks   :  1   MIL    : 19   PF: 98   1st Qu.:77.00   1st Qu.:200.0  
+ Aaron Gordon   :  1   CLE    : 18   PG: 96   Median :79.00   Median :220.0  
+ Aaron Harrison :  1   DAL    : 18   SF: 84   Mean   :79.09   Mean   :219.9  
+ Adreian Payne  :  1   ORL    : 18   SG:102   3rd Qu.:82.00   3rd Qu.:240.0  
+ Al-Farouq Aminu:  1   ATL    : 17            Max.   :87.00   Max.   :290.0  
+ (Other)        :471   (Other):368                                           
+      age          experience                                      college   
+ Min.   :19.00   Min.   : 0.000                                        : 89  
+ 1st Qu.:23.00   1st Qu.: 1.000   University of Kentucky               : 25  
+ Median :26.00   Median : 4.000   Duke University                      : 19  
+ Mean   :26.39   Mean   : 4.662   University of Kansas                 : 15  
+ 3rd Qu.:29.00   3rd Qu.: 7.000   University of California, Los Angeles: 14  
+ Max.   :40.00   Max.   :18.000   University of North Carolina         : 14  
+                                  (Other)                              :301  
+     salary             games          minutes         points          points3     
+ Min.   :    5145   Min.   : 1.00   Min.   :   1   Min.   :   0.0   Min.   :  0.0  
+ 1st Qu.: 1050961   1st Qu.:25.00   1st Qu.: 381   1st Qu.: 124.0   1st Qu.:  2.0  
+ Median : 3000000   Median :60.00   Median :1123   Median : 403.0   Median : 26.0  
+ Mean   : 5804697   Mean   :50.71   Mean   :1164   Mean   : 510.3   Mean   : 46.4  
+ 3rd Qu.: 8269663   3rd Qu.:74.00   3rd Qu.:1843   3rd Qu.: 756.0   3rd Qu.: 73.0  
+ Max.   :30963450   Max.   :82.00   Max.   :3048   Max.   :2558.0   Max.   :324.0  
+                                                                                   
+    points2         points1      
+ Min.   :  0.0   Min.   :  0.00  
+ 1st Qu.: 30.0   1st Qu.: 15.00  
+ Median :100.0   Median : 50.00  
+ Mean   :142.3   Mean   : 86.49  
+ 3rd Qu.:208.0   3rd Qu.:116.00  
+ Max.   :730.0   Max.   :746.00  
+                                 
