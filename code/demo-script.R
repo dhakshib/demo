@@ -12,3 +12,5 @@
 # packages
 library(dplyr)    # data wrangling
 library(ggplot2)  # graphics
+
+read.csv("data/nba2018-players.csv")
