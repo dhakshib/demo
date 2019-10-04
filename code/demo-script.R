@@ -33,3 +33,34 @@ write.csv(warriors, file = "warriors.csv", row.names = FALSE)
 sink(file = "../outputs/data-structure.txt")
 str(dat$player)
 sink()
+
+# Export the summary() of the entire data frame warriors.
+sink("../outputs/summary-warriors.txt")
+summary(warriors)
+sink()
+
+# Export the summary() of the entire data frame lakers.
+sink("../outputs/summary-lakers.txt")
+summary(filter(dat, team == "LAL"))
+sink()
+
+# Save a histogram of age
+jpeg(filename = "../images/histogram-age.jpeg", 
+     height = 600, width = 400)
+hist(dat$age, 
+     main = 'Age of NBA Players in 2018',
+     xlab = 'Age')
+dev.off()
+
+# Scatterplot b/w height and weight
+png(filename = "../images/scatterplot2-height-weight.png", 
+     pointsize = 16)
+plot(dat$height, dat$weight, pch = 20, 
+     xlab = 'Height', ylab = 'Weight')
+dev.off()
+
+# ggplot for scatterplot b/w height and weight
+ggplot(dat, aes(x = height, y = weight)) + 
+  geom_point() +
+  facet_wrap(~ position) +
+  ggsave(filename = "../images/height_weight_by_position.pdf")
